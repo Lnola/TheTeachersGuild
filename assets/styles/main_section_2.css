@@ -1,0 +1,175 @@
+.main__section--second {
+  margin-top: 100px;
+  background-color: #f4f4f2;
+}
+
+/* Section 1 --- Inspiration */
+.main__inspiration {
+  width: 100vw;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.main__inspiration--title {
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.main__inspiration--text {
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Section 1 --- Inspiration */
+
+/* Section 2 --- creating */
+
+/* Subsection 1 --- collaborations */
+.main__collaborations {
+  background-color: #fff;
+  height: 488px;
+  box-sizing: border-box;
+  display: flex;
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.main__collaborations--left {
+  flex-basis: 41.5%;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 120px;
+}
+
+.main__collaborations--left h3 {
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 33px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.main__collaborations--left p {
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+}
+
+/* Na koji san se nacin moga rijesit ova 2 !important.
+Ako mi odgovoris tocno dobivas cokoladu */
+.main__collaborations--button {
+  padding: 11px 0 !important;
+  width: 222px !important;
+  margin-top: 50px;
+}
+
+.main__collaborations--right {
+  flex-basis: 59.5%;
+  background-image: linear-gradient(0deg, #2d2d2d, transparent 70%),
+    url("https://bit.ly/2OWHrOx");
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__collaborations--right div {
+  padding: 40px;
+}
+
+.main__collaborations--right h3 {
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.main__collaborations--right p {
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  transition: color 200ms ease;
+}
+
+.main__collaborations--right p:hover {
+  color: #ffc40c;
+  transition: color 200ms ease;
+}
+/* Subsection 1 --- collaborations */
+
+/* Subsection 2 --- chapters */
+.main__chapters {
+  display: flex;
+  margin: auto;
+  max-width: 75%;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.main__chapters article {
+  flex-basis: 48%;
+}
+
+.main__chapters--image {
+  height: 242px;
+  background-position: 0px 0px, 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  border-bottom: 10px solid #ffc40c;
+  transition: transform 200ms ease 0s;
+  transform: scaleX(1) scaleY(1);
+}
+
+.main__chapters--image:hover {
+  transition: transform 200ms ease 0s;
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.main__chapters--professors {
+  background-image: url("https://bit.ly/2BcukQT");
+}
+
+.main__chapters--book {
+  background-image: url("https://bit.ly/2qhykgX");
+}
+
+.main__chapters--description {
+  padding: 50px 35px;
+}
+
+.main__chapters--description h3 {
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  transition: color 200ms ease;
+}
+
+.main__chapters--description h3:hover {
+  color: #ffc40c;
+  transition: color 200ms ease;
+}
+
+.main__chapters--description p {
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  line-height: 25px;
+}
+/* Subsection 2 --- chapters */
+
+/* Section 2 --- creating */

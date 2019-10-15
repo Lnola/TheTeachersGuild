@@ -1,0 +1,138 @@
+footer {
+  background-color: #f4f4f2;
+}
+
+.footer__wrapper {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 100px 0;
+  width: 100%;
+}
+
+.footer__top article {
+  flex-basis: 33%;
+}
+
+/* Logo */
+
+.footer__logo-tg {
+  width: 189px;
+  margin-bottom: 20px;
+}
+
+.footer__explanation {
+  font-family: Lato, Arial, sans-serif;
+  color: #273c48;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+/* Logo */
+
+/* Links */
+
+.footer__links {
+  margin-left: 150px;
+}
+
+.footer__links a {
+  transition: color 200ms ease;
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  color: #273c48;
+  line-height: 25px;
+  font-weight: 700;
+  font-size: 13px;
+  display: block;
+}
+
+.footer__links a:hover {
+  color: #ffc40c;
+  transition: color 200ms ease;
+}
+
+.footer__links a:first-of-type {
+  text-decoration: none;
+}
+
+/* Links */
+
+/* Social */
+
+.footer__headline {
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  color: #273c48;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.footer__social--media {
+  margin-left: 5px;
+}
+
+.footer__social span {
+  border: 1px solid #273c48;
+  border-style: solid none solid solid;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transition: all 200ms ease;
+  margin-left: -5px;
+}
+
+.footer__social span:hover {
+  background-color: #273c48;
+}
+
+.footer__social--facebook {
+  background-image: url("https://bit.ly/2oOfbmr");
+  background-size: 11px;
+}
+
+.footer__social--twitter {
+  background-image: url("https://bit.ly/2BdBSD7");
+  background-size: 21px;
+}
+
+.footer__social--instagram {
+  background-image: url("https://bit.ly/2MIGhn1");
+  background-size: 18px;
+}
+
+.footer__social--medium {
+  background-image: url("https://bit.ly/2MgN2NG");
+  background-size: 17px;
+  border-style: solid !important;
+}
+
+.footer__social--facebook:hover {
+  background-image: url("https://bit.ly/2oOfbmr");
+}
+
+.footer__social--twitter:hover {
+  background-image: url("https://bit.ly/2BdBSD7");
+}
+
+.footer__social--instagram:hover {
+  background-image: url("https://bit.ly/2MIGhn1");
+}
+
+.footer__social--medium:hover {
+  background-image: url("https://bit.ly/2MgN2NG");
+}
+
+/* Social */
+
+.footer__supported {
+  width: 101px;
+  margin-right: 20px;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+}
+
+.main__section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.common__button {
+  color: #273c48;
+  width: 240px;
+  padding: 17px 0;
+  border: 2px solid #273c48;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  background-color: transparent;
+  transition: background-color 108ms ease;
+}
+
+.common__button:hover {
+  color: #fff;
+  background-color: #273c48 !important;
+  border-color: #273c48 !important;
+  transition: background-color 108ms ease, border-color 108ms ease !important;
+}
+
+.mw-75pc {
+  max-width: 75%;
+}
+
+.c-blue {
+  color: blue;
+}
+
+.c-273c48 {
+  color: #273c48 !important;
+  text-decoration: none;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.mb-5px {
+  margin-bottom: 5px !important;
+}
+
+.p-relative {
+  position: relative;
+}

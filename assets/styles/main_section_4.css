@@ -1,0 +1,32 @@
+.main__section--fourth {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.main__quote {
+  max-width: 50%;
+  text-align: center;
+}
+
+.main__quote--text {
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 700;
+}
+
+.main__quote--author {
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  color: #979797;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 700;
+  margin: 20px 0 30px 0;
+}
+
+.main__quote--button {
+  background-color: #ffc40c !important;
+  border-color: #ffc40c !important;
+}

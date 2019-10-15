@@ -1,0 +1,38 @@
+header {
+  margin-top: 150px;
+  margin-bottom: 190px;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-bottom: 60px;
+}
+
+/* Section 1 */
+.header__logo {
+  width: 54px;
+  margin-bottom: 50px;
+}
+
+.header__title {
+  color: #273c48;
+  font-size: 60px;
+  font-weight: 100;
+  font-family: Jubilat, Georgia, sans-serif;
+  max-width: 70%;
+  text-align: center;
+}
+/* Section 1 */
+
+/* Section 2 */
+.header__text {
+  color: #2a2a2a;
+  font-size: 19px;
+  font-family: Lato, Arial, sans-serif;
+  margin-bottom: 30px;
+}
+/* Section 2 */

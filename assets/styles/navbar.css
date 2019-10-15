@@ -1,0 +1,66 @@
+nav {
+  background-color: #ffc40c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+/* Logo */
+.nav__logo {
+  width: 240px;
+  margin-left: 25px;
+  padding: 13px 0;
+}
+/* Logo */
+
+/* Links */
+.nav__links {
+  margin-left: 150px;
+}
+
+.nav__links a {
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 12.5px;
+  font-weight: 900;
+  transition: color 200ms ease;
+}
+
+.nav__links a:hover {
+  color: #273c48;
+  transition: color 200ms;
+}
+/* Links */
+
+/* Registration */
+.nav__registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.nav__registration a,
+.nav__registration p {
+  color: #273c48;
+  text-decoration: none;
+  font-size: 10.5px;
+  transition: color 200ms ease;
+  display: inline-block;
+}
+
+.nav__registration a {
+  font-weight: 900;
+}
+
+.nav__registration a:hover {
+  color: #fff;
+  transition: color 200ms;
+}
+/* Registration */
